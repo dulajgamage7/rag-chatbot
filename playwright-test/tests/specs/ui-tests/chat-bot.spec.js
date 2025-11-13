@@ -77,7 +77,7 @@ test.describe("Chat Bot - Document-aware Q&A", () => {
   test("Ask 5 document-based questions (from file) and verify answers (fuzzy similarity)", async () => {
     const stringSimilarity = require("string-similarity");
 
-    // simple, interview-friendly normalization
+    // normalization
     const normalize = (s) =>
       s
         .toLowerCase()
